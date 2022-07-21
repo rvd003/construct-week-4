@@ -13,7 +13,8 @@ const Home = () => {
              <div><h1 className='H'>Make the best <br/>use of your time</h1>
              <h3 className='h3'>TMetric is a smart choice for time tracking to see work <br/>in progress and keep team, cost and quality under control</h3>
              <input  className='Input' type="email" placeholder='Enter Your Email'></input><br/>
-             <button className='but'> GET STARTED</button>
+             <Link to="./dash">
+             <button className='but'> GET STARTED</button></Link>
              <p>Fully Functional 30 days trial</p>
 
              
