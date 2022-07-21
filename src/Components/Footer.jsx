@@ -24,6 +24,9 @@ const Footer = () => {
         <p><u>Terme And Service</u></p>
         <p><u>Privacy Policy</u></p>
         <p><u>Cookie Policy</u></p>
+
+
+        
         </div> 
     </div>
     
