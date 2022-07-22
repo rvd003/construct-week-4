@@ -18,8 +18,10 @@ const Todo = () => {
   return (
     <div className={styles.container}>
        
-         ADD YOUR TASK HERE
+        ADD YOUR TASK HERE
+
         <br />
+        <hr/>
         
         <input value={value}onChange={(e)=>setValue(e.target.value)} />
         
