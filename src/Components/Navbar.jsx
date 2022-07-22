@@ -15,7 +15,7 @@ const Navbar = () => {
   <span>Why Tmetric</span>
   <div class="dropdown-content">
   <p>Time Tracking</p>
-  <p>Team Management</p>
+  <div><Link to="./team">Team Management</Link></div>
   <p>Billing & invoicing</p>
   <p>Task Management</p>
   <p>Project Management</p>
