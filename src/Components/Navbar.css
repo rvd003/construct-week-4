@@ -28,7 +28,7 @@
     
 }
 .L{
-    width: 140px;
+    width: 100px;
     height: 50px;
      margin-right: 1200px;
    
@@ -99,9 +99,11 @@
     margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: white;
 }
 .Man:hover{
-     background-color: azure;
+     background-color: rgb(128, 135, 135);
+     color: #F7F7F7;
     
      
 }
@@ -192,9 +194,11 @@ h2{
     margin-left: 80px;
     position: relative;
     display: inline-block;
+    text-decoration: none;
    
     
 }
+
 .div1:hover{
     background-color: rgb(241, 241, 168);
 }
