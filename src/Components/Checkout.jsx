@@ -12,7 +12,7 @@ const Checkout = () => {
     
     <div className="checkoutcontainer_at">
         <div className="checkout_details_at">
-            <div className="shipping_heading_at"><h3>Shipping Address</h3></div>
+            <div className="shipping_heading_at"><h3>Payment information</h3></div>
             <form action="./payment.html">
                 <label for="firstname">First Name</label>
                 <div><input type="text" className="checkout_firstname_at checkout_details_comm_at"/></div>
@@ -71,9 +71,12 @@ const Checkout = () => {
                 <label for="phoneno">First Phone Number</label>
                 <div><input type="tel" className="checkout_phoneno_at checkout_details_comm_at"/></div>
 
-                <div className="checkout_delivery_div_at"><h3>Delivery Charges</h3></div>
-                <div className="checkout_delivery_at"><span><input type="radio"/>&#8377;0.00</span>
-                    <span>Max 7 Business Days</span>
+                <div className="checkout_delivery_div_at"><h3>Card Details</h3></div>
+                <div ><input type="text" placeholder='Card Number'/>
+                <br/>
+                
+                   <div><input type="text" placeholder='Card holder Name'/></div> 
+                   <div><input type="text" placeholder='security code'/></div> 
                 </div>
 
               <Link to="/payment">  <div className="submitdetails_at"><input type="submit" value="Next"/></div></Link>

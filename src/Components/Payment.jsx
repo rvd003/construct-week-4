@@ -27,7 +27,7 @@ function Payment() {
                 setshow(!show)
               }}
             />
-            <div>Cash on Delivery</div>
+            <div>Debit Card</div>
           </div >
           {show?null:<Button></Button>}
         </div>
@@ -43,7 +43,7 @@ function Payment() {
                 setshow1(!show1)
               }}
             />
-            <div>Debit/Credit Card</div>
+            <div>Credit Card</div>
           </div>
           {show1?null:<Button></Button>}
         </div>

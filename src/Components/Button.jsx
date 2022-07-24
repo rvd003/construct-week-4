@@ -7,7 +7,7 @@ const Button = () => {
   return (
     <div>
       <button className='PaymentBtn' onClick={()=>{
-        alert("Order Placed Successfully!")
+        alert("subscription Added!")
         Navigate("/")
         
       }}>Place order</button>
